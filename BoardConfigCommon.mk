@@ -25,8 +25,8 @@ TARGET_CPU_SMP := true
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
-# CMHW
-BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
+# MKHW
+BOARD_HARDWARE_CLASS += hardware/samsung/mkhw
 
 # Graphics
 USE_OPENGL_RENDERER := true
